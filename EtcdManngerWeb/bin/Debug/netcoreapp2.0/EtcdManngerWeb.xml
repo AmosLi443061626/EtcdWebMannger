@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EtcdManngerWeb</name>
+    </assembly>
+    <members>
+        <member name="T:EtcdManngerWeb.Controllers.EtcdController">
+            <summary>
+            Etcd操作
+            </summary>
+        </member>
+        <member name="M:EtcdManngerWeb.Controllers.EtcdController.EtcdSet(System.String)">
+            <summary>
+            Etcd 设置连接地址
+            </summary>
+            <returns>true/False</returns>
+        </member>
+        <member name="M:EtcdManngerWeb.Controllers.EtcdController.SetNodes(System.String,System.String)">
+            <summary>
+            设置etcd值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EtcdManngerWeb.Controllers.EtcdController.Get(System.String)">
+            <summary>
+            获取Etcd值下级
+            </summary>
+            <param name="key">要删除的Key</param>
+            <returns>json</returns>
+        </member>
+        <member name="M:EtcdManngerWeb.Controllers.EtcdController.Delete(System.String)">
+            <summary>
+            删除Etcd值包括下级
+            </summary>
+            <param name="key">需要删除的Key(/ 斜杠开头与结尾)</param>
+            <returns></returns>
+        </member>
+        <member name="M:EtcdManngerWeb.Controllers.EtcdController.Load(System.String,System.String)">
+            <summary>
+            加载一个json文件写入配置中心
+            </summary>
+            <param name="key">更新地址</param>
+            <param name="settingJson">Json</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

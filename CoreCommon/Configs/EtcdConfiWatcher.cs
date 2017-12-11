@@ -1,6 +1,5 @@
 ﻿
-using CoreCommon.EtcdGrcpClient;
-using Etcdserverpb;
+using EtcdGrcpClient;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -30,18 +29,7 @@ namespace CoreCommon.Configs
 
         public async void WaitWatch(ConcurrentDictionary<string, List<string>> cd)
         {
-            while (Interlocked.Exchange(ref isTaked, 0) != 1)
-            {
-                if (watcher == null || watcher.isDisposed)
-                {
-                    try
-                    {
-                        await WatchValues(cd);
-                    }
-                    catch { }
-                }
-                await Task.Delay(new Random().Next(2000, 15000));
-            }
+            await WatchValues(cd);
         }
 
         private async
@@ -52,7 +40,8 @@ WatchValues(ConcurrentDictionary<string, List<string>> cd)
             {
                 var dk = etcdClient.GetRange(conf).Result;
                 foreach (var item in dk)
-                    cd.AddOrUpdate(item.Key.Replace(conf, ""), new List<string> { item.Value }, (key, value) => {
+                    cd.AddOrUpdate(item.Key.Replace(conf, ""), new List<string> { item.Value }, (key, value) =>
+                    {
                         value[0] = item.Value;
                         return value;
                     });
@@ -66,7 +55,8 @@ WatchValues(ConcurrentDictionary<string, List<string>> cd)
             watcher.Subscribe(s =>
             {
                 foreach (var item in s)
-                    cd.AddOrUpdate(item.Key.Replace(conf, ""), new List<string> { item.Value }, (key, value) => {
+                    cd.AddOrUpdate(item.Key.Replace(conf, ""), new List<string> { item.Value }, (key, value) =>
+                    {
                         value[0] = item.Value;
                         return value;
                     });

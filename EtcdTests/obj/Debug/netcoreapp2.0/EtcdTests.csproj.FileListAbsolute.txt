@@ -1,0 +1,11 @@
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\bin\Debug\netcoreapp2.0\EtcdTests.deps.json
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\bin\Debug\netcoreapp2.0\EtcdTests.runtimeconfig.json
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\bin\Debug\netcoreapp2.0\EtcdTests.runtimeconfig.dev.json
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\bin\Debug\netcoreapp2.0\EtcdTests.dll
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\bin\Debug\netcoreapp2.0\EtcdTests.pdb
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\obj\Debug\netcoreapp2.0\EtcdTests.csprojResolveAssemblyReference.cache
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\obj\Debug\netcoreapp2.0\EtcdTests.csproj.CoreCompileInputs.cache
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\obj\Debug\netcoreapp2.0\EtcdTests.AssemblyInfoInputs.cache
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\obj\Debug\netcoreapp2.0\EtcdTests.AssemblyInfo.cs
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\obj\Debug\netcoreapp2.0\EtcdTests.dll
+E:\VSCoding\githubs\EtcdWebMannger\EtcdTests\obj\Debug\netcoreapp2.0\EtcdTests.pdb

@@ -65,3 +65,17 @@ E:\VSCoding\EtcdTests\CoreCommon\obj\Debug\netstandard2.0\CoreCommon.AssemblyInf
 E:\VSCoding\EtcdTests\CoreCommon\obj\Debug\netstandard2.0\CoreCommon.AssemblyInfo.cs
 E:\VSCoding\EtcdTests\CoreCommon\obj\Debug\netstandard2.0\CoreCommon.dll
 E:\VSCoding\EtcdTests\CoreCommon\obj\Debug\netstandard2.0\CoreCommon.pdb
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\obj\Debug\netstandard2.0\CoreCommon.csprojResolveAssemblyReference.cache
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\obj\Debug\netstandard2.0\CoreCommon.csproj.CoreCompileInputs.cache
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\obj\Debug\netstandard2.0\CoreCommon.AssemblyInfoInputs.cache
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\obj\Debug\netstandard2.0\CoreCommon.AssemblyInfo.cs
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\obj\Debug\netstandard2.0\CoreCommon.dll
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\obj\Debug\netstandard2.0\CoreCommon.pdb
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\bin\Debug\netstandard2.0\NLog.config
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\bin\Debug\netstandard2.0\CoreCommon.deps.json
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\bin\Debug\netstandard2.0\CoreCommon.dll
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\bin\Debug\netstandard2.0\CoreCommon.pdb
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Json.dll
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\VSCoding\githubs\EtcdWebMannger\CoreCommon\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Json.xml

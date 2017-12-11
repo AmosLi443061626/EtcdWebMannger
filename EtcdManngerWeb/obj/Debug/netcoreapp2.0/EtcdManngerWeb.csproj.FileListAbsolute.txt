@@ -1,0 +1,15 @@
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\obj\Debug\netcoreapp2.0\EtcdManngerWeb.csprojResolveAssemblyReference.cache
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\obj\Debug\netcoreapp2.0\EtcdManngerWeb.csproj.CoreCompileInputs.cache
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\obj\Debug\netcoreapp2.0\EtcdManngerWeb.AssemblyInfoInputs.cache
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\obj\Debug\netcoreapp2.0\EtcdManngerWeb.AssemblyInfo.cs
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\bin\Debug\netcoreapp2.0\NLog.config
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\bin\Debug\netcoreapp2.0\EtcdManngerWeb.xml
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\bin\Debug\netcoreapp2.0\EtcdManngerWeb.deps.json
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\bin\Debug\netcoreapp2.0\EtcdManngerWeb.runtimeconfig.json
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\bin\Debug\netcoreapp2.0\EtcdManngerWeb.runtimeconfig.dev.json
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\bin\Debug\netcoreapp2.0\EtcdManngerWeb.dll
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\bin\Debug\netcoreapp2.0\EtcdManngerWeb.pdb
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\bin\Debug\netcoreapp2.0\CoreCommon.dll
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\bin\Debug\netcoreapp2.0\CoreCommon.pdb
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\obj\Debug\netcoreapp2.0\EtcdManngerWeb.dll
+E:\VSCoding\githubs\EtcdWebMannger\EtcdManngerWeb\obj\Debug\netcoreapp2.0\EtcdManngerWeb.pdb

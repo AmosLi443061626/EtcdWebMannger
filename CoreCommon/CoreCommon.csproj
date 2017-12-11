@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="EtcdGrpcClient\**" />
+    <EmbeddedResource Remove="EtcdGrpcClient\**" />
+    <None Remove="EtcdGrpcClient\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Logs\NLog.config" />
   </ItemGroup>
 
@@ -19,6 +25,7 @@
     <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.2.1" />
     <PackageReference Include="AutoMapper" Version="6.1.1" />
     <PackageReference Include="Castle.Core" Version="4.1.1" />
+    <PackageReference Include="EtcdGrcpClient" Version="0.0.1" />
     <PackageReference Include="Google.Protobuf" Version="3.4.1" />
     <PackageReference Include="Grpc" Version="1.7.1" />
     <PackageReference Include="Grpc.Core" Version="1.7.1" />
@@ -41,10 +48,6 @@
     <Reference Include="Microsoft.Extensions.Configuration.Json">
       <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration.json\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Json.dll</HintPath>
     </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="EtcdGrpcClient\" />
   </ItemGroup>
 
 </Project>

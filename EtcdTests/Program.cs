@@ -97,19 +97,19 @@ namespace EtcdTests
 
 
 
-            //var sk = etcdClient.GetRange("/111").Result;
-            //var k = etcdClient.Put("/conf/order/99999", "999").Result;
+            var sk = etcdClient.GetRange("/111").Result;
+            var k = etcdClient.Put("/conf/order/99999", "999").Result;
 
-            //var b = etcdClient.Put("/conf/order/redis:add", "66666").Result;
-            //var etcdw = etcdClient.WatchRange("/111").Result;
-            //etcdw.Subscribe(x =>
-            //{
-            //    Console.WriteLine("触发啦");
-            //});
+            var b = etcdClient.Put("/conf/order/redis:add", "66666").Result;
+            var etcdw = etcdClient.WatchRange("/111").Result;
+            etcdw.Subscribe(x =>
+            {
+                Console.WriteLine("触发啦");
+            });
             //etcdClient.Put("/111", "999");
             //etcdClient.Put("/111", "444");
             //etcdClient.Put("/111", "333");
-          
+
             Console.Read();
         }
 

@@ -78,6 +78,21 @@
           "lib/netstandard1.3/Castle.Core.dll": {}
         }
       },
+      "EtcdGrcpClient/0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.4.1",
+          "Grpc": "1.6.1",
+          "Grpc.Core": "1.6.1",
+          "System.Interactive.Async": "3.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/EtcdGrcpClient.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/EtcdGrcpClient.dll": {}
+        }
+      },
       "Google.Protobuf/3.4.1": {
         "type": "package",
         "dependencies": {
@@ -2130,6 +2145,16 @@
         "lib/net45/Castle.Core.dll",
         "lib/netstandard1.3/Castle.Core.dll",
         "readme.txt"
+      ]
+    },
+    "EtcdGrcpClient/0.0.1": {
+      "sha512": "ajRJnM4KBcS0Y981sLwbdhM2sRjlhTeN154OeIXnimf2Ke9hH7lFcUwBTm5PLpy6crVFeFFkRuR0g22poVLGGA==",
+      "type": "package",
+      "path": "etcdgrcpclient/0.0.1",
+      "files": [
+        "etcdgrcpclient.0.0.1.nupkg.sha512",
+        "etcdgrcpclient.nuspec",
+        "lib/netstandard2.0/EtcdGrcpClient.dll"
       ]
     },
     "Google.Protobuf/3.4.1": {
@@ -6752,6 +6777,7 @@
       "Autofac >= 4.6.1",
       "Autofac.Extras.DynamicProxy >= 4.2.1",
       "Castle.Core >= 4.1.1",
+      "EtcdGrcpClient >= 0.0.1",
       "Google.Protobuf >= 3.4.1",
       "Grpc >= 1.7.1",
       "Grpc.Core >= 1.7.1",
@@ -6778,11 +6804,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\VSCoding\\EtcdTests\\CoreCommon\\CoreCommon.csproj",
+      "projectUniqueName": "E:\\VSCoding\\githubs\\EtcdWebMannger\\CoreCommon\\CoreCommon.csproj",
       "projectName": "CoreCommon",
-      "projectPath": "E:\\VSCoding\\EtcdTests\\CoreCommon\\CoreCommon.csproj",
+      "projectPath": "E:\\VSCoding\\githubs\\EtcdWebMannger\\CoreCommon\\CoreCommon.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\VSCoding\\EtcdTests\\CoreCommon\\obj\\",
+      "outputPath": "E:\\VSCoding\\githubs\\EtcdWebMannger\\CoreCommon\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6820,6 +6846,10 @@
           "Microsoft.Extensions.Caching.Redis.Core": {
             "target": "Package",
             "version": "1.0.3"
+          },
+          "EtcdGrcpClient": {
+            "target": "Package",
+            "version": "0.0.1"
           },
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
