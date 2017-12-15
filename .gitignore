@@ -1,1 +1,5 @@
 .vs/
+EtcdManngerWeb/bin/
+CoreCommon/bin/
+CoreCommon/obj/
+EtcdManngerWeb/obj/
